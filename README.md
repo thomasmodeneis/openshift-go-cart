@@ -1,7 +1,7 @@
-OpenShift cartridge Go and mgo MongoDB driver. 
+OpenShift cartridge Go, Martini and mgo MongoDB driver. 
 ======================
 
-Runs [Go](http://golang.org) and [mgo](https://gopkg.in/mgo.v2) on [OpenShift](https://openshift.redhat.com/app/login) using downloadable cartridge support.  To install to OpenShift from the CLI (you'll need version 1.9 or later of rhc), run:
+Runs [Go 1.3](http://golang.org), [Martini](https://github.com/go-martini/martini) and [mgo](https://gopkg.in/mgo.v2) on [OpenShift](https://openshift.redhat.com/app/login) using downloadable cartridge support.  To install to OpenShift from the CLI (you'll need version 1.9 or later of rhc), run:
 
     rhc create-app mygo https://cartreflect-claytondev.rhcloud.com/reflect?github=thomasmodeneis/openshift-go-cart
 
