@@ -22,6 +22,12 @@ The repository contains a sample go file which will print "hello, world" when so
 Any log output will be generated to <code>$OPENSHIFT_GO_LOG_DIR</code>
 
 
+
+MongoDB
+------------
+Note that you need to install mongodb locally or update web.go file with a valid mongodb url credential --> mongodb://user:pass@mongolab.com mongodb://user:pass@mongohq.com or any other provider).
+
+
 How it Works
 ------------
 
